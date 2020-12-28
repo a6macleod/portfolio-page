@@ -10,16 +10,18 @@ import "./App.css";
 import brickWall from "./images/brick-wall.png";
 
 function App() {
-  const [exampleProjects, setExampleProjects] = useState({
-    title: "Shopping Cart",
-    goal: "The goal of this site was to create a shopping cart using React",
-    type: "This was a learning project for React",
-    tech: "Javascript, React",
-    link: "https://a6macleod.github.io/react_shopping_cart/",
-    img: brickWall,
-    imgAlt:
-      "Screenshot of fictional brick walls for sale from the Shopping Cart project",
-  });
+  const [exampleProjects, setExampleProjects] = useState([
+    {
+      title: "Shopping Cart",
+      goal: "The goal of this site was to create a shopping cart using React",
+      type: "This was a learning project for React",
+      tech: "Javascript, React",
+      link: "https://a6macleod.github.io/react_shopping_cart/",
+      img: brickWall,
+      imgAlt:
+        "Screenshot of fictional brick walls for sale from the Shopping Cart project",
+    },
+  ]);
 
   return (
     <div className="App">
