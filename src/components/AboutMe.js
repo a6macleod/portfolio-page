@@ -1,14 +1,14 @@
 import Projects from "./Projects";
 import headshot from "../images/headshot-2020.jpg";
 
-const AboutMe = () => {
+const AboutMe = (props) => {
   return (
     <div className="aboutMeContainer">
       <div className="aboutSection">
         <div className="imageContainer">
           <img src={headshot} alt="A nice headshot of Andrew" />
         </div>
-        <div className="about">
+        <div className="aboutMe">
           <h2>About Me</h2>
           <p>
             I am a web developer based out of Kalamazoo Michigan. I am available
@@ -24,7 +24,7 @@ const AboutMe = () => {
         </div>
       </div>
       {/* Example Projects */}
-      <Projects />
+      <Projects exampleProjects={props.exampleProjects} />
     </div>
   );
 };

@@ -11,10 +11,17 @@ a:hover {
 .header {
   display: flex;
   justify-content: space-between;
+  /* space between header & main */
+  padding-bottom: 70px;
 }
 
 .titleContainer {
   text-align: center;
+}
+
+.titleContainer,
+.header nav {
+  padding: 20px;
 }
 
 .header nav ul {
@@ -28,7 +35,7 @@ a:hover {
 /* AboutMe Component */
 .aboutSection {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 4fr 1fr;
   grid-gap: 20px;
 }
 
@@ -40,6 +47,12 @@ a:hover {
   max-width: 100%;
 }
 
-.aboutSection .about {
+.aboutSection .aboutMe {
   grid-column: 3;
+}
+
+/* Projects Component */
+.projects {
+  display: flex;
+  justify-content: center;
 }
