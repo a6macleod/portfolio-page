@@ -1,5 +1,5 @@
 import Projects from "./Projects";
-import headshot from "../images/headshot-2020.jpg";
+import headshot from "../images/headshot-2020.png";
 
 const AboutMe = (props) => {
   return (

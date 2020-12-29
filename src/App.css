@@ -1,4 +1,10 @@
 /* Global Styling */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
 }
@@ -7,21 +13,36 @@ a:hover {
   cursor: pointer;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 /* Header Component */
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   /* space between header & main */
   padding-bottom: 70px;
 }
 
 .titleContainer {
   text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+.titleContainer h1 {
+  font-size: 25px;
 }
 
 .titleContainer,
 .header nav {
-  padding: 20px;
+  padding: 30px;
+}
+
+.header nav {
+  padding-right: 100px;
 }
 
 .header nav ul {
@@ -30,6 +51,17 @@ a:hover {
 
 .header nav li {
   padding-right: 10px;
+  font-weight: 600;
+}
+
+.header a {
+  color: black;
+}
+
+.header li a:hover {
+  color: blue;
+  /*text-decoration: underline;*/
+  border-bottom: solid 2px blue;
 }
 
 /* AboutMe Component */
@@ -51,6 +83,19 @@ a:hover {
 
 .aboutSection .aboutMe {
   grid-column: 3;
+  /*border: 1px solid black;*/
+}
+
+.aboutMe h2 {
+  /*font-weight: 600;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.aboutMe p {
+  line-height: 1.5;
+  padding-bottom: 20px;
+  max-width: 35em;
 }
 
 /* Projects Component */
@@ -91,7 +136,7 @@ a:hover {
 
 .projectInfo h2 {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   padding-bottom: 20px;
 }
 
