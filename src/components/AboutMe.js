@@ -1,4 +1,5 @@
 import Projects from "./Projects";
+import { Link } from "react-router-dom";
 import headshot from "../images/headshot-2020.png";
 
 const AboutMe = (props) => {
@@ -25,6 +26,11 @@ const AboutMe = (props) => {
       </div>
       {/* Example Projects */}
       <Projects exampleProjects={props.exampleProjects} />
+      <div className="contactButtonContainer">
+        <Link to="/contact">
+          <button className="contactButton">Drop me a line!</button>
+        </Link>
+      </div>
     </div>
   );
 };

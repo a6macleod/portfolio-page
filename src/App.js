@@ -9,12 +9,12 @@ import "./App.css";
 // Images for example projects
 import brickWall from "./images/brick-wall.png";
 import memory from "./images/memory.png";
-import responsive from "./images/responsove.png";
+import responsive from "./images/responsive.png";
 
 function App() {
   const [exampleProjects, setExampleProjects] = useState([
     {
-      title: "React Shopping Cart Project",
+      title: "Shopping Cart Project",
       goal:
         "The goal of this site was some fun practice to create a shopping cart using React. Site includes a splash page, a shopping page, a checkout page, and a dynamically created page for each of the store items.",
       tech:
@@ -26,7 +26,7 @@ function App() {
         "Screenshot of fictional brick walls for sale from the Shopping Cart project",
     },
     {
-      title: "Memory Game",
+      title: "Memory Game Project",
       goal:
         "The goal of this project was to create a memory game using React. The images all change position each time one is clicked. Your score is tracked and if you click the same image twice, the score resets and your top score is recorded.",
       tech:
@@ -38,7 +38,7 @@ function App() {
         "Screenshot of the memory game the images are of various small metal gears.",
     },
     {
-      title: "Responsive Design",
+      title: "Responsive Design Project",
       goal:
         "The goal of this project was to create a duplicate of TheNextWeb.com and replicate their responsive design. This was great practice making elements disapear, re-arrange, and introduce a hamburger menu. ",
       tech:
