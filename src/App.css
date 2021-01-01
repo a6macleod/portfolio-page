@@ -18,6 +18,10 @@ h2 {
   font-size: 20px;
 }
 
+.App {
+  background: linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 95%));
+}
+
 /* Header Component */
 .header {
   display: flex;
@@ -157,15 +161,15 @@ h2 {
   padding: 25px;
   font-size: 18px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 95%);
   border: none;
   box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.2);
 }
 
 .contactButton:hover {
   cursor: pointer;
-  color: #fff;
-  background-color: blue;
+  color: hsl(0, 0%, 95%);
+  background: linear-gradient(hsl(215, 90%, 75%), hsl(215, 90%, 65%));
 }
 
 /* Projects Component */
@@ -184,6 +188,7 @@ h2 {
   max-width: 1000px;
   border-radius: 5px;
   box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.2);
+  background: hsl(0, 10%, 95%);
 }
 
 .imgContainer {
@@ -192,6 +197,7 @@ h2 {
 
 .imgContainer img {
   width: 100%;
+  box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.2);
 }
 
 .projectInfo {
@@ -243,7 +249,7 @@ h2 {
 
 .projectInfo a:hover i {
   transition: all 0.2s ease-in-out;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 @media (max-width: 1050px) {
