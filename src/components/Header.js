@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="titleContainer">
-        <Link to="/">
+        <Link to="/about">
           <h1>Andrew MacLeod</h1>
           <h2>Web Developer</h2>
         </Link>
@@ -12,10 +12,12 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">About</Link>
+            <NavLink exact to="/" activeClassName="active">
+              About
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </nav>
