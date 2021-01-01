@@ -13,14 +13,13 @@ const AboutMe = (props) => {
           <h2>About Me</h2>
           <p>
             I am a web developer based out of Kalamazoo Michigan. I am available
-            to help solve your website problems and help meet your business
-            goals online.
+            to build your websites, solve your website problems, and help meet
+            your business goals online.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur, adipisicing elit.
-            Repellendus inventore ipsa facilis labore numquam temporibus unde at
-            nisi enim, eum sunt possimus ipsam eveniet tempore alias facere
-            dolor deserunt cupiditate.
+            I am particularly interested in helping small businesses and
+            non-profits have a polished web presence especially on mobile
+            devices.
           </p>
         </div>
       </div>
