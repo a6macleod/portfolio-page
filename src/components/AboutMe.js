@@ -18,7 +18,7 @@ const AboutMe = (props) => {
           </p>
           <p>
             I am particularly interested in helping small businesses and
-            non-profits have a polished web presence especially on mobile
+            non-profits have a professional web presence especially on mobile
             devices.
           </p>
         </div>

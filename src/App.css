@@ -161,15 +161,16 @@ h2 {
   padding: 25px;
   font-size: 18px;
   border-radius: 5px;
-  background-color: hsl(0, 0%, 95%);
+  background: linear-gradient(hsl(215, 90%, 75%), hsl(215, 90%, 65%));
+  color: hsl(0, 0%, 95%);
   border: none;
   box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.2);
 }
 
 .contactButton:hover {
   cursor: pointer;
-  color: hsl(0, 0%, 95%);
-  background: linear-gradient(hsl(215, 90%, 75%), hsl(215, 90%, 65%));
+  background: hsl(0, 0%, 95%);
+  color: hsl(0, 20%, 15%);
 }
 
 /* Projects Component */
