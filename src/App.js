@@ -12,7 +12,8 @@ import memory from "./images/memory.png";
 import responsive from "./images/responsive.png";
 
 function App() {
-  const [exampleProjects, setExampleProjects] = useState([
+  // no use in making setExampleProjects for the hook since it isn't used
+  const [exampleProjects, ] = useState([
     {
       title: "Shopping Cart Project",
       goal:
