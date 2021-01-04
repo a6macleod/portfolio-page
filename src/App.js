@@ -16,9 +16,9 @@ function App() {
     {
       title: "Shopping Cart Project",
       goal:
-        "The goal of this site was some fun practice to create a shopping cart using React. Site includes a splash page, a shopping page, a checkout page, and a dynamically created page for each of the store items.",
+        "The goal of this project was some fun practice to create a shopping cart using React. The site includes a splash page, a shopping page, a checkout page, and a dynamically created page for each of the store items.",
       tech:
-        "The tech used was mostly Javascript and React and the site is hosted on Github Pages.",
+        "I used mostly Javascript and React and the site is hosted on Github Pages.",
       link: "https://a6macleod.github.io/react_shopping_cart/",
       code: "https://github.com/a6macleod/react_shopping_cart",
       img: brickWall,
@@ -28,7 +28,7 @@ function App() {
     {
       title: "Memory Game Project",
       goal:
-        "The goal of this project was to create a memory game using React. The images all change position each time one is clicked. Your score is tracked and if you click the same image twice, the score resets and your top score is recorded.",
+        "This project was to create a memory game using React. The images all change position each time one is clicked. Your score is tracked and if you click the same image twice, the score resets and your top score is recorded.",
       tech:
         "The tech used was mostly Javascript and React and the site is hosted on Github Pages.",
       link: "https://a6macleod.github.io/memory-game/",
@@ -40,7 +40,7 @@ function App() {
     {
       title: "Responsive Design Project",
       goal:
-        "The goal of this project was to create a duplicate of TheNextWeb.com and replicate their responsive design. This was great practice making elements disapear, re-arrange, and introduce a hamburger menu. ",
+        "The goal of this project was to create a duplicate of TheNextWeb.com and replicate their responsive design. This was great practice making elements disapear, re-arrange, and introduce new elements at a smaller window size such as a hamburger menu. ",
       tech:
         "The tech used was just HTML and CSS. The site is hosted on Github Pages.",
       link: "https://a6macleod.github.io/responsive-design/#",
