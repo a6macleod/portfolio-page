@@ -6,20 +6,26 @@ const Contact = () => {
           name="contactForm"
           method="POST"
           data-netlify-recaptcha="true"
-          netlify
+          data-netlify="true"
         >
-          <div className="formInput">
-            <label for="name">Your Name:</label>
-            <input type="text" name="name" id="name" />
-          </div>
-          <div className="formInput">
-            <label for="email">Your Email:</label>
-            <input type="email" name="email" id="email" />
-          </div>
-          <div className="formInput">
-            <label for="message">Message:</label>
-            <textarea name="message" id="message"></textarea>
-          </div>
+          <p className="formInput">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" />
+            </label>
+          </p>
+          <p className="formInput">
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" />
+            </label>
+          </p>
+          <p className="formInput">
+            <label>
+              <span>Message</span>
+              <textarea name="message"></textarea>
+            </label>
+          </p>
           <div data-netlify-recaptcha="true"></div>
           <div className="formContactButtonContainer">
             <button className="contactButton formContactButton" type="submit">
