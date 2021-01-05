@@ -8,6 +8,7 @@ const Contact = () => {
           data-netlify-recaptcha="true"
           data-netlify="true"
         >
+          <input type="hidden" name="form-name" value="contactForm" />
           <p className="formInput">
             <label>
               <span>Name</span>
