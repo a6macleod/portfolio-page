@@ -20,6 +20,7 @@ h2 {
 
 .App {
   background: linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 95%));
+  min-height: 100vh;
 }
 
 /* Header Component */
