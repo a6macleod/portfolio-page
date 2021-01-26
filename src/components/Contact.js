@@ -12,19 +12,19 @@ const Contact = () => {
           <p className="formInput">
             <label>
               <span>Name</span>
-              <input type="text" name="name" />
+              <input type="text" name="name" required />
             </label>
           </p>
           <p className="formInput">
             <label>
               <span>Email</span>
-              <input type="email" name="email" />
+              <input type="email" name="email" required />
             </label>
           </p>
           <p className="formInput">
             <label>
               <span>Message</span>
-              <textarea name="message"></textarea>
+              <textarea name="message" required></textarea>
             </label>
           </p>
           <div data-netlify-recaptcha="true"></div>
