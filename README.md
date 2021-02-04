@@ -1,3 +1,5 @@
+Portfolio
+
 This site is a basic portfolio to introduce who I am and show example projects and websites that I have built.
 
 The site is built using create-react-app. All the information for the example projects are stored as state on the App.js file.
@@ -10,6 +12,8 @@ To add an example project, create a new object in the array exampleProjects. The
     -tech: What technologies were used to create it generally and where a working example can be seen/where it is hosted (i.e. github pages).
 
     -link: A link to the working example i.e. "https://a6macleod.github.io/react_shopping_cart/".
+
+To update the hosted project, simply push any updates to the master branch on github.
 
     -code: A link to the code repository
 
