@@ -7,9 +7,9 @@ import Contact from "./components/Contact";
 // CSS
 import "./App.css";
 // Images for example projects
-import brickWall from "./images/brick-wall.png";
-import memory from "./images/memory.png";
-import responsive from "./images/responsive.png";
+import brickWall from "./images/brick-wall.jpg";
+import memory from "./images/memory.jpg";
+import responsive from "./images/responsive.jpg";
 
 function App() {
   // no use in making setExampleProjects for the hook since it isn't used

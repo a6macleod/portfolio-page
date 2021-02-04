@@ -193,6 +193,7 @@ h2 {
   background: hsl(0, 10%, 95%);
 }
 
+/* image container is max 500px (50% of 1000px above) */
 .imgContainer {
   width: 50%;
 }

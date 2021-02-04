@@ -5,7 +5,13 @@ const Projects = (props) => {
         return (
           <div key={project.title} className="project">
             <div className="imgContainer">
-              <a href={project.link} target="_blank" rel="noreferrer">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+                aria-hidden="true"
+                role="presentation"
+              >
                 <img src={project.img} alt={project.imgAlt} />
               </a>
             </div>
@@ -20,7 +26,11 @@ const Projects = (props) => {
                 </a>
                 <a href={project.code} target="_blank" rel="noreferrer">
                   See the code
-                  <i className="far fa-share-square"></i>
+                  <i
+                    className="far fa-share-square"
+                    aria-hidden="true"
+                    role="presentation"
+                  ></i>
                 </a>
               </div>
             </div>

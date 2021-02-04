@@ -1,6 +1,6 @@
 import Projects from "./Projects";
 import { Link } from "react-router-dom";
-import headshot from "../images/headshot-2020.png";
+import headshot from "../images/headshot-2020-compressed.png";
 
 const AboutMe = (props) => {
   return (
